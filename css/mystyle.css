@@ -24,20 +24,17 @@ h1 {
     vertical-align: middle;
     font-size: 24px;
     color: #ffffff;
-    text-shadow: 0 1px 3px rgba(5, 15, 70, 1), 0 3px 14px rgba(5, 15, 70, 0.8);
 }
 h4 {
     color: #ffffff;
     margin-bottom: 40px;
     margin-top: 20px;
     font-size: 22px;
-    text-shadow: 0 1px 3px rgba(5, 15, 70, 1), 0 3px 14px rgba(5, 15, 70, 0.8);
 }
 a.clink:link {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
-    text-shadow: 0 1px 3px rgba(5, 15, 70, 1), 0 3px 14px rgba(5, 15, 70, 0.8);
 }
 a.clink:visited {
     color: #ffffff;
@@ -45,10 +42,9 @@ a.clink:visited {
     font-weight: bold;
 }
 a.clink:hover {
-    color: #ddeeff;
+    color: #ff8c00;
     text-decoration: none;
     font-weight: bold;
-    text-shadow: 0 1px 3px rgba(5, 15, 70, 1), 0 3px 14px rgba(5, 15, 70, 0.8);
 }
 a.clink:active {
     color: #ddeeff;
