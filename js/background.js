@@ -12,15 +12,14 @@
   resize();
   window.addEventListener("resize", function () {
     resize();
-    init();
   });
 
-  // HSL gradient stops top→bottom (matches inspiration: periwinkle → sky blue → cyan)
+  // HSL gradient stops top→bottom (dark charcoal → dark orange → deep amber)
   const stops = [
-    { pos: 0.0, h: 218, s: 70, l: 68 }, // strong blue
-    { pos: 0.35, h: 210, s: 75, l: 70 }, // sky blue
-    { pos: 0.65, h: 198, s: 70, l: 74 }, // light blue
-    { pos: 1.0, h: 184, s: 65, l: 78 }, // cyan-mint
+    { pos: 0.0, h: 20, s: 70, l: 8 }, // very dark burnt orange
+    { pos: 0.35, h: 25, s: 75, l: 11 }, // dark orange
+    { pos: 0.65, h: 30, s: 65, l: 14 }, // dark amber
+    { pos: 1.0, h: 15, s: 60, l: 9 }, // dark red-orange
   ];
 
   function baseHSL(cy) {
