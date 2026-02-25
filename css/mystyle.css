@@ -14,35 +14,44 @@ body {
 .section a {
     text-align: center;
 }
+.section a img {
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(100, 160, 255, 0.5);
+}
 h1 {
     margin: 20px 40px 40px 40px;
     vertical-align: middle;
-    font-size: 24px
+    font-size: 24px;
+    color: #ffffff;
+    text-shadow: 0 1px 3px rgba(5, 15, 70, 1), 0 3px 14px rgba(5, 15, 70, 0.8);
 }
 h4 {
-    color: #6e6b6b;
+    color: #ffffff;
     margin-bottom: 40px;
     margin-top: 20px;
-    font-size: 22px
+    font-size: 22px;
+    text-shadow: 0 1px 3px rgba(5, 15, 70, 1), 0 3px 14px rgba(5, 15, 70, 0.8);
 }
 a.clink:link {
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
+    text-shadow: 0 1px 3px rgba(5, 15, 70, 1), 0 3px 14px rgba(5, 15, 70, 0.8);
 }
 a.clink:visited {
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
 }
 a.clink:hover {
-    color: rgb(136, 136, 136);
+    color: #ddeeff;
     text-decoration: none;
     font-weight: bold;
+    text-shadow: 0 1px 3px rgba(5, 15, 70, 1), 0 3px 14px rgba(5, 15, 70, 0.8);
 }
 a.clink:active {
-    color: rgb(136, 136, 136);
+    color: #ddeeff;
     text-decoration: none;
     font-weight: bold;
 }
-
